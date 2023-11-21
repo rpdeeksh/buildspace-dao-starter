@@ -59,13 +59,15 @@
 import React from 'react';
 import { useAddress, ConnectWallet, Web3Button, useContract, useNFTBalance } from '@thirdweb-dev/react';
 import { useState, useEffect, useMemo } from 'react';
+import {ethers} from "ethers";
+import {useWeb3} from "@3rdweb/hooks";
 
 const App = () => {
   // Use the hooks thirdweb give us.
   const address = useAddress();
   console.log("👋 Address:", address);
   // Initialize our Edition Drop contract
-  const editionDropAddress = "0xe40EAf84908589e0Ae0477480f07B5F45Bf6BC51";
+  const editionDropAddress = "0x15b2eC7Ca4AAa22c85ADa4C92d6D063732deD043";
   const { contract: editionDrop } = useContract(editionDropAddress, "edition-drop");
   // Hook to check if the user has our NFT
   const { data: nftBalance } = useNFTBalance(editionDrop, address, "0")
@@ -111,7 +113,7 @@ const App = () => {
   // Render mint nft screen.
   return (
     <div className="mint-nft">
-      <h1>Mint your free 🍪DAO Membership NFT</h1>
+      <h1>Mint your free 🎤 DAO Membership NFT</h1>
       <div className="btn-hero">
         <Web3Button 
           contractAddress={editionDropAddress}
