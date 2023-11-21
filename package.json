@@ -4,12 +4,18 @@
   "private": true,
   "dependencies": {
     "@quicknode/sdk": "^1.1.4",
-    "@thirdweb-dev/react": "^3.5.1",
-    "@thirdweb-dev/sdk": "^3.10.67",
+    "@thirdweb-dev/react": "^3.10.3",
+    "@thirdweb-dev/sdk": "^4.0.15",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
     "ethers": "^5.6.6",
+    "https-browserify": "^1.0.0",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
-    "react-scripts": "5.0.0"
+    "react-scripts": "^3.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3"
   },
   "scripts": {
     "start": "react-scripts start",

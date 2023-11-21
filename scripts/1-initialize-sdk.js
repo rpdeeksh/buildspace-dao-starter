@@ -23,7 +23,7 @@ const sdk = ThirdwebSDK.fromPrivateKey(
   // RPC URL, we'll use our QuickNode API URL from our .env file.
   process.env.QUICKNODE_API_URL,{
     clientId : "8252bd02691d3a4a932641a49436f4d4",
-    secretKey : "",
+    secretKey : "QTSpR7dUG0rGJbyrbv8Tla_Ryh2OWSFavQBC0dLLURXKsAAgLaoXTtkCfq0Y_hzelivhidDxYWu52-vylp0LKQ",
   }
 );
 
