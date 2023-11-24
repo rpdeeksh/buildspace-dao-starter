@@ -2,6 +2,6 @@
   "name": "mydao-scripts",
   "type": "module",
   "dependencies": {
-    "@thirdweb-dev/sdk": "^4.0.15"
+    "@thirdweb-dev/sdk": "^4.0.17"
   }
 }

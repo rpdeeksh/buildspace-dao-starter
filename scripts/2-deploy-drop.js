@@ -10,7 +10,7 @@ import { readFileSync } from "fs";
           description : "A DAO for fans of Arijit Singh's concert.",
           symbol : "{{symbol}}",
           image : "ipfs.io/ipfs/QmctEWp9nudeH7J79paM2ChDqSeMHsaTAq8cWFoRo7vVMa",
-          primary_sale_recipient : AddressZero
+          primary_sale_recipient : AddressZero,
       });
 
 
