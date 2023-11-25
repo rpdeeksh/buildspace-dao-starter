@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 
 (async () => {
   try {
-    const editionDrop = await sdk.getContract("0x516477E0e80A72DA56320D4f7B8B840B0DA19baC", "edition-drop");
+    const editionDrop = await sdk.getContract("your_edition_drop", "edition-drop");
     await editionDrop.createBatch([
       {
         name : "Synergy NFT",

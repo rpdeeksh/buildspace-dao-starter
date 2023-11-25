@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-// Import thirdweb provider and Goerli ChainId
+// Import thirdweb provider and mumbai testnet ChainId
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 import { ChainId } from '@thirdweb-dev/sdk';
 
@@ -15,7 +15,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <ThirdwebProvider activeChain= "mumbai" clientId='6d0520dbf1e0d742936d9b4ec097d25a' desiredChainId={activeChainId}>
+    <ThirdwebProvider activeChain= "mumbai" clientId='your_chain_id' desiredChainId={activeChainId}>
       <App />
     </ThirdwebProvider>
   </React.StrictMode>,

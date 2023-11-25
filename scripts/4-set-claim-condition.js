@@ -3,7 +3,7 @@ import { MaxUint256 } from "@ethersproject/constants";
 
 (async () => {
   try {
-    const editionDrop = await sdk.getContract("0x516477E0e80A72DA56320D4f7B8B840B0DA19baC", "edition-drop");
+    const editionDrop = await sdk.getContract("your_edition_drop", "edition-drop");
     // We define our claim conditions, this is an array of objects because
     // we can have multiple phases starting at different times if we want to
     const claimConditions = [{
