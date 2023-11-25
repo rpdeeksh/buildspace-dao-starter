@@ -4,6 +4,8 @@
 To get started with this project, clone this repo and follow these commands:
 
 1. Run `npm install` at the root of your directory
+2. Run 'npm i @thirdweb-dev/sdk' in your root directory and the scripts directory
+3. Run 'npm i @thirdweb-dev/react' in your root directory
 2. Run `npm start` to start the project
 3. Start coding!
 
